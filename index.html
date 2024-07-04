@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Versão 1.0.0</title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <h1 id="nome">...</h1>
+            <ul>
+                <li><a id="localizacao" href="#">...</a></li>
+                <li><a id="telefone" href="#">... </a></li>
+                <li><a id="email" href="#">... </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Objetivo</h2>
+            <p id="objetivo">...</p>
+        </section>
+
+        <section>
+            <h2>Qualificação profissional</h2>
+            <p id="qualificacao">...</p>
+        </section>
+
+        <section>
+            <h2>Experiência profissional</h2>
+            <p id="experiencia">...</p>
+        </section>
+
+        <section>
+            <h2>Formação</h2>
+            <p id="formacao">...</p>
+        </section>
+    </main>
+
+    <div class="botao">
+        <p id="botao">Aperte Aqui para responder</p>
+    </div>
+
+    <!-- Modal -->
+    <div id="Modal" class="modal">
+        <div class="modal-content">
+            <button id="fecharModal">Fechar</button>
+            <p id="modal-text">Deseja finalizar?</p>
+            <button id="simBtn">Sim</button>
+        </div>
+    </div>
+
+    <p id="finalizar" class="finalizar" style="display: none;">Finalizar</p>
+
+    <footer>
+        <img id="lampada" src="public/imagens/ideia-criativa.png" alt="Lâmpada" onclick="darkMode()">
+    </footer>
+
+    <script src="public/script.js"></script>
+</body>
+
+</html>
